@@ -1,0 +1,84 @@
+body {
+  font-family: poppins, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1740935438084-cf1b2c9215fc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fm=jpg&q=60&w=3000);
+  overflow: hidden;
+  background-size: cover;
+}
+
+h2 {
+  color: white;
+  text-shadow: black 1px 1px 2px, black 0 0 20px, black 0 0 1px;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Relogio {
+  display: flex;
+}
+
+.Relogio div {
+  position: relative;
+  margin: 5px;
+}
+
+.Relogio span {
+  height: 80px;
+  width: 110px;
+  background: black;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.274);
+  border-radius: 3px;
+}
+
+.Relogio .texto {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: rgb(94, 137, 255);
+  opacity: 0.8;
+  border-radius: 3px;
+}
+
+.Relogio .ampm {
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  height: 30px;
+  width: 60px;
+  font-size: 20px;
+  background: rgb(94, 137, 255);
+  opacity: 0.8;
+  border-radius: 3px;
+}
+
+.btnformato {
+  font-size: 14px;
+  margin-top: 15px;
+  color: white;
+  text-shadow: black 1px 1px 2px, black 0 0 20px, black 0 0 1px;
+}
+
+.btn24h {
+  margin-right: 1px;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  text-shadow: black 1px 1px 2px, black 0 0 20px, black 0 0 1px;
+  font-size: 12px;
+}
